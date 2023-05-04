@@ -29,7 +29,6 @@ import static com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE;
 @RequiredArgsConstructor
 @EnableScheduling
 public class AppConfig {
-
     private final AppProperties appProperties;
     private final Environment env;
 
